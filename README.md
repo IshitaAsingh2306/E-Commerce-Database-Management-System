@@ -161,20 +161,4 @@ Submitted as part of <b>Database Management System Coursework</b>.
 
 This project is created for academic purposes only.
 
-
----
-
-If you want, I can now:
-
-- Make it look like a **final year major project README**
-- Add animated badges
-- Add contribution section
-- Add screenshots layout
-- Add deployment section
-- Add star/fork counter badge
-
-Tell me your level (2nd year / 3rd year / final year) and I’ll upgrade it to that standard 🔥
-The ER Diagram visually represents relationships between Users, Products, Categories, Orders, Payments, and Reviews.
-
-```markdown
 er_diagram.png
