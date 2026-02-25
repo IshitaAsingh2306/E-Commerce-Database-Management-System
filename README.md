@@ -1,99 +1,109 @@
-🛒 E-Commerce Website Management System
-📌 Project Description
+<h1 align="center">🛒 E-Commerce Website Management System</h1>
 
-The E-Commerce Website Management System is a database-driven application designed to manage online shopping operations efficiently. It allows customers to browse products, sellers to list items, users to place orders, track payments, and manage reviews through a structured database system.
+<p align="center">
+  <b>A Database Management System Project using MariaDB</b>
+</p>
 
-The system ensures accurate data storage, quick retrieval, reduced manual work, and improved user experience through structured database management.
+<p align="center">
+  <img src="https://img.shields.io/badge/Database-MariaDB-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Backend-SQL-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Project-DBMS-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Made%20With-❤️-red?style=for-the-badge">
+</p>
 
-This project demonstrates database design concepts such as Entity-Relationship Modeling (ER Diagram), relational schema design, normalization, and SQL operations including CRUD functionalities.
+---
 
-🎯 Objectives
+<h2>📌 <b>Project Overview</b></h2>
 
-To store customer information digitally
+The <b>E-Commerce Website Management System</b> is a database-driven application designed to efficiently manage online shopping operations.
 
-To manage seller and product records
+It enables:
 
-To organize products by categories
+- Customers to browse and purchase products  
+- Sellers to list and manage products  
+- Users to track orders and payments  
+- Administrators to manage platform data  
 
-To allow customers to place and track orders
+This system ensures structured data storage, reduced redundancy, faster data retrieval, and secure transaction handling.
 
-To manage payments securely
+This project demonstrates:
 
-To maintain product reviews and ratings
+- <b>Entity-Relationship Modeling (ER Diagram)</b>  
+- <b>Relational Schema Design</b>  
+- <b>Normalization (1NF, 2NF, 3NF)</b>  
+- <b>SQL CRUD Operations</b>  
+- <b>JOIN & Aggregate Queries</b>  
+- <b>Triggers & Stored Procedures</b>  
 
-To ensure organized and secure e-commerce data
+---
 
-🧩 Features
+<h2>🎯 <b>Objectives</b></h2>
 
-User Registration and Login System
+- Digitally store customer and seller information  
+- Manage product listings and categories  
+- Enable cart and order management  
+- Maintain secure payment transaction records  
+- Track product reviews and ratings  
+- Ensure organized and secure database structure  
 
-Seller Product Management
+---
 
-Product Categorization
+<h2>🧩 <b>Key Features</b></h2>
 
-Shopping Cart System
+✔ User Registration & Login System  
+✔ Seller Product Management  
+✔ Product Categorization  
+✔ Shopping Cart System  
+✔ Order Placement & Tracking  
+✔ Payment Management  
+✔ Product Reviews & Ratings  
+✔ Secure Data Storage  
+✔ Multi-user Support  
 
-Order Placement and Tracking
+---
 
-Payment Management
-
-Product Reviews and Ratings
-
-Secure Data Storage
-
-Quick Data Retrieval
-
-Multi-user Handling
-
-🗃️ Database Schema
+<h2>🗃️ <b>Database Schema</b></h2>
 
 The system consists of the following tables:
 
-Users – Stores customer, seller, and admin details
+- <b>Users</b>
+- <b>Categories</b>
+- <b>Products</b>
+- <b>Cart</b>
+- <b>Orders</b>
+- <b>Order_Items</b>
+- <b>Payments</b>
+- <b>Reviews</b>
 
-Categories – Stores product category information
+---
 
-Products – Stores product details listed by sellers
+<h2>🔗 <b>Entity Relationships</b></h2>
 
-Cart – Manages products added to shopping cart
+- A <b>User</b> can place multiple <b>Orders</b>  
+- A <b>Seller</b> can add multiple <b>Products</b>  
+- A <b>Category</b> contains multiple <b>Products</b>  
+- An <b>Order</b> contains multiple <b>Order_Items</b>  
+- A <b>Product</b> can appear in multiple <b>Order_Items</b>  
+- A <b>User</b> can write multiple <b>Reviews</b>  
+- A <b>Product</b> can receive multiple <b>Reviews</b>  
+- Each <b>Order</b> is linked to one <b>Payment</b>  
 
-Orders – Manages customer orders
+---
 
-Order_Items – Stores products included in each order
+<h2>🏗️ <b>ER Diagram</b></h2>
 
-Payments – Maintains payment transaction records
-
-Reviews – Stores customer reviews and ratings
-
-🔗 Entity Relationships
-
-A User can place multiple Orders
-
-A User (Seller) can add multiple Products
-
-A Category can contain multiple Products
-
-An Order can contain multiple Order_Items
-
-A Product can appear in multiple Order_Items
-
-A User can write multiple Reviews
-
-A Product can receive multiple Reviews
-
-Each Order is linked to one Payment
-
-💻 Technologies Used
-Technology	Usage
+<h2>⚙️ <b>Technologies Used</b></h2>
+Technology	Purpose
 HTML	Frontend Structure
 CSS	Styling
-Java / PHP / Django (Optional)	Backend Logic
 MariaDB / MySQL	Database
+SQL	Query Processing
 XAMPP / WAMP	Local Server
-Draw.io / Lucidchart	ER Diagram
-⚙️ SQL Operations Implemented
+Draw.io	ER Diagram Design
+<h2>💾 <b>SQL Operations Implemented</b></h2>
 
-CREATE Database and Tables
+CREATE DATABASE & TABLES
 
 INSERT Records
 
@@ -103,29 +113,68 @@ DELETE Records
 
 SELECT Queries
 
-JOIN Queries
+INNER JOIN / LEFT JOIN
 
-Aggregate Functions (COUNT, SUM)
-
-Stored Procedures
+GROUP BY & Aggregate Functions
 
 Triggers
 
-📊 ER Diagram
+Stored Procedures
 
-The ER Diagram represents relationships between entities such as Users, Products, Categories, Orders, Order_Items, Payments, and Reviews, illustrating how e-commerce data is interconnected within the system.
+<h2>🚀 <b>How to Run the Project</b></h2>
 
-👨‍💻 Team Members
+Install <b>XAMPP</b> or <b>MariaDB</b>
 
-Team Leader: Your Name
-Member 1: Member Name
-Member 2: Member Name
-Member 3: Member Name
+Start Apache & MySQL services
 
-🔗 GitHub Repository
+Open phpMyAdmin
 
-https://github.com/IshitaAsingh2306/E-Commerce-Database-Management-System
+Create a new database
 
-📅 Submission
+Import the provided SQL file
 
-This project is submitted as part of the Database Management System coursework.
+Execute queries to test functionality
+
+<h2>📂 <b>Project Structure</b></h2>
+Ecommerce-DBMS/
+│
+├── README.md
+├── ecommerce.sql
+├── er_diagram.png
+└── project_report.pdf
+<h2>👨‍💻 <b>Team Members</b></h2>
+
+<b>Team Leader:</b> Your Name
+<b>Member 1:</b> Member Name
+<b>Member 2:</b> Member Name
+<b>Member 3:</b> Member Name
+
+<h2>🔗 <b>GitHub Repository</b></h2>
+
+Add your repository link here.
+
+<h2>📅 <b>Submission</b></h2>
+
+Submitted as part of <b>Database Management System Coursework</b>.
+
+<h2>📜 <b>License</b></h2>
+
+This project is created for academic purposes only.
+
+
+---
+
+If you want, I can now:
+
+- Make it look like a **final year major project README**
+- Add animated badges
+- Add contribution section
+- Add screenshots layout
+- Add deployment section
+- Add star/fork counter badge
+
+Tell me your level (2nd year / 3rd year / final year) and I’ll upgrade it to that standard 🔥
+The ER Diagram visually represents relationships between Users, Products, Categories, Orders, Payments, and Reviews.
+
+```markdown
+er_diagram.png
