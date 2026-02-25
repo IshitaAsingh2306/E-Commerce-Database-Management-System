@@ -145,13 +145,13 @@ Ecommerce-DBMS/
 <h2>👨‍💻 <b>Team Members</b></h2>
 
 <b>Team Leader:</b> Your Name
-<b>Member 1:</b> Member Name
-<b>Member 2:</b> Member Name
-<b>Member 3:</b> Member Name
+<b>Member 1:</b> Member Name</n>
+<b>Member 2:</b> Member Name</n>
+<b>Member 3:</b> Member Name</n>
 
 <h2>🔗 <b>GitHub Repository</b></h2>
 
-Add your repository link here.
+https://github.com/IshitaAsingh2306/E-Commerce-Database-Management-System
 
 <h2>📅 <b>Submission</b></h2>
 
