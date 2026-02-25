@@ -145,9 +145,9 @@ Ecommerce-DBMS/
 <h2>👨‍💻 <b>Team Members</b></h2>
 
 <b>Team Leader:</b> Your Name
-<n><b>Member 1:</b> Member Name</n>
-<n><b>Member 2:</b> Member Name</n>
-<n><b>Member 3:</b> Member Name</n>
+<b>Member 1:</b> Member Name
+<b>Member 2:</b> Member Name
+<b>Member 3:</b> Member Name
 
 <h2>🔗 <b>GitHub Repository</b></h2>
 
