@@ -147,7 +147,7 @@ Ecommerce-DBMS/
 <b>Team Leader:</b> Ishita Singh
 <b>Member 1:</b> Khushal Ojha
 <b>Member 2:</b> Vaibhav Singh
-<b>Member 3:</b> Divyanshu Sharma
+<b>Member 3:</b> Divyanshu Kumar
 
 <h2>🔗 <b>GitHub Repository</b></h2>
 
